@@ -1,0 +1,27 @@
+:root {
+    color-scheme: light dark;
+  }
+.light {
+    color-scheme: light;
+}
+.dark {
+    color-scheme: dark;
+}
+body{
+    background-color: light-dark(#D1D8C5, #373A40);
+    color: light-dark(#373A40, #D1D8C5);
+}
+#themeSlider {
+    width: 2rem;
+    height: 2rem;
+}
+#digitalClock {
+    font-size: 2rem;
+    width: 4rem;
+    height: 2rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
